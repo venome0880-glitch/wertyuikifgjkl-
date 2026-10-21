@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shafed Billi – Discord Music Bot</title>
+<meta name="description" content="Shafed Billi is a component-first Discord music bot powered by Lavalink.">
+<meta name="theme-color" content="#04050f">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Righteous&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<noscript><style>.rv{opacity:1;transform:none}#wipe{display:none}</style></noscript>
+</head>
+<body data-page="home">
+<div class="aurora" aria-hidden="true"></div><div id="wipe" class="enter" aria-hidden="true"></div><div id="toast" role="status"></div>
+<nav aria-label="Main">
+<a class="brand" href="index.html"><img src="assets/img/logo.webp" alt="Shafed Billi logo"><span>Shafed Billi</span></a>
+<div class="links" id="links"></div>
+<a class="btn" href="invite.html">Invite</a>
+</nav>
+<main id="app">
+<section class="page">
+<div class="hero rv"><img src="assets/img/banner.webp" alt="" fetchpriority="high"><div>
+<span class="chip">Discord music bot · powered by Lavalink</span>
+<h1>Music that <span class="grad">moves</span> with your server.</h1>
+<p>Interactive now-playing cards, six music sources, filters, favourites and automatic voice recovery – all inside Discord.</p>
+<div class="row"><a class="btn" href="invite.html">Add to Discord</a><a class="btn ghost" href="commands.html">Browse commands</a><a class="btn ghost" href="features.html">Features</a></div></div></div>
+<div class="player rv" style="--i:2"><img src="assets/img/art.webp" alt="Now playing artwork"><div><b>Now playing</b><div class="eq" id="eq" aria-hidden="true"></div><div class="bar"><b></b></div><div class="ctl" id="ctl" aria-hidden="true"></div></div></div>
+<div class="stats rv" id="stats" style="--i:3"></div>
+<div class="grid sec" id="tiles"></div>
+<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+</section>
+</main>
+<footer>Shafed Billi · Bot by <b>DEVROCK</b> · Website by <b>VENOME</b></footer>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
